@@ -102,7 +102,7 @@
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="8.0"/>
+    <a name="simulationFrequency" val="32.0"/>
     <comp lib="0" loc="(100,390)" name="Bit Extender">
       <a name="in_width" val="16"/>
       <a name="out_width" val="32"/>
@@ -143,7 +143,7 @@
       <a name="output" val="true"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(140,180)" name="Tunnel">
+    <comp lib="0" loc="(160,180)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="ehZero"/>
     </comp>
@@ -344,11 +344,13 @@
 5100b 3200b 0 3211 3c 4212 4c 5213
 5c 6124 6c 7165 7c 8066 8c 9257
 9c 9298 9c 1a039 ac 3d06a dc 9e08b
-ec 19000d 8*0 1003 8700b a00b 1b00b c003
+ec 28000d 8*0 1003 8700b a00b 1b00b c003
 c0b4 bba1 a003 a0c4 cc 1101b 2017e fff8000d
 f 0 0 5003 1100b 5c 5591 2052e
 fffd000d 5c 5952 2050e fffd000d 5c 3012e 1101b
-fff6000d ffe2000d
+fff6000d ffe2000d 20f00b a00b 1c00b cc cac7 1a0ab
+cc 20afe fffa000d 0 d00b a0cb c0ab cc
+cdc8 0 1d0db cc 20dfe fff9000d ffdd000d
 </a>
       <a name="dataWidth" val="32"/>
       <a name="labelfont" val="SansSerif bold 3"/>
@@ -421,7 +423,7 @@ fff6000d ffe2000d
     <wire from="(1160,190)" to="(1160,200)"/>
     <wire from="(1160,190)" to="(1170,190)"/>
     <wire from="(120,200)" to="(120,220)"/>
-    <wire from="(120,200)" to="(140,200)"/>
+    <wire from="(120,200)" to="(160,200)"/>
     <wire from="(120,330)" to="(120,390)"/>
     <wire from="(1200,210)" to="(1200,230)"/>
     <wire from="(1200,230)" to="(1210,230)"/>
@@ -434,7 +436,7 @@ fff6000d ffe2000d
     <wire from="(1280,440)" to="(1350,440)"/>
     <wire from="(130,290)" to="(160,290)"/>
     <wire from="(1350,300)" to="(1350,440)"/>
-    <wire from="(140,180)" to="(140,200)"/>
+    <wire from="(160,180)" to="(160,200)"/>
     <wire from="(160,240)" to="(160,290)"/>
     <wire from="(160,240)" to="(260,240)"/>
     <wire from="(180,310)" to="(190,310)"/>
